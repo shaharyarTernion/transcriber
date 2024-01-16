@@ -16,6 +16,7 @@ function NavItem({ children, href }: NavItemProps) {
   return (
     <li>
       <Typography
+        placeholder={""}
         as="a"
         href={href || "#"}
         target={href ? "_blank" : "_self"}
@@ -59,6 +60,7 @@ export function Navbar() {
 
   return (
     <MTNavbar
+      placeholder={""}
       fullWidth
       shadow={false}
       blurred={false}
@@ -67,6 +69,7 @@ export function Navbar() {
     >
       <div className="container mx-auto flex items-center justify-between">
         <Typography
+          placeholder={""}
           as="a"
           href="https://www.material-tailwind.com"
           target="_blank"
@@ -116,6 +119,7 @@ export function Navbar() {
           </a>
         </div> */}
         <IconButton
+          placeholder={""}
           variant="text"
           color={isScrolling ? "gray" : "white"}
           onClick={handleOpen}

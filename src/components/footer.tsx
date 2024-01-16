@@ -15,13 +15,16 @@ export function Footer() {
               as="a"
               href="https://www.material-tailwind.com"
               target="_blank"
+              placeholder={""}
               variant="h5"
               color="white"
               className="mb-4"
             >
               Transcriber
             </Typography>
-            <Typography color="white" className="mb-12 font-normal">
+            <Typography
+              placeholder={""}
+              color="white" className="mb-12 font-normal">
               Unlock the Power of Seamless Communication with Our Cutting-Edge SaaS Platform.
             </Typography>
             {/* <ul className="flex flex-wrap items-center justify-center md:justify-start">
@@ -42,11 +45,14 @@ export function Footer() {
             </ul> */}
           </div>
           <div className="mt-8 w-full md:mt-0 md:w-auto">
-            <Typography variant="h6" color="white" className="mb-3">
+            <Typography
+              placeholder={""}
+              variant="h6" color="white" className="mb-3">
               Get the app
             </Typography>
             <div className="flex flex-col gap-2">
               <Button
+                placeholder={""}
                 color="white"
                 className="flex items-center justify-center"
               >
