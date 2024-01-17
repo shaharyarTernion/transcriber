@@ -15,27 +15,31 @@ import FeatureCard from "../components/feature-card";
 const FEATURES = [
   {
     icon: CursorArrowRaysIcon,
-    title: "Transcription at Your Fingertips",
+    title: "Accurate Transcription",
     children:
-      "Effortlessly transcribe any audio or video file with our advanced transcription technology.  Say goodbye to time- consuming manual transcriptions and embrace efficiency",
+      "Lightning-fast and precise transcription of audio and video files. Multiple file format support, including MP3, WAV, MP4, and more.",
   },
   {
     icon: HeartIcon,
-    title: "User-Friendly Interface",
+    title: "Intelligent Analysis",
     children:
-      "Enjoy a seamless experience with our intuitive and user-friendly platform. No technical expertise required – just upload, transcribe, and translate!",
+      `Receive detailed insights on speech clarity, pace, and tone.
+Identify filler words, pauses, and speech patterns for improvement.`,
   },
   {
     icon: LockClosedIcon,
-    title: "Dynamic Translation Options",
+    title: "Customizable Reports",
     children:
-      "Translate your text into 75 languages, opening up new possibilities for global communication and collaboration.",
+      `Access comprehensive analysis reports on various attributes.
+Track your speech improvement over time and measure audience engagement.`,
   },
   {
     icon: LightBulbIcon,
-    title: "Accurate and Reliable",
+    title: "Content Enhancement",
     children:
-      "Our state-of-the-art algorithms ensure accurate transcriptions and translations. Trust in precision and reliability for all your content needs.",
+      `Seamlessly add annotations, key points, or corrections to your transcripts.
+Elevate your speech content with intelligent suggestions for clarity and impact.
+`,
   },
 ];
 
@@ -46,21 +50,19 @@ export function Features() {
         <Typography
           placeholder={""}
           color="blue-gray" className="mb-2 font-bold uppercase">
-          Your Learning App
+          Your Elevating App
         </Typography>
-        <Typography 
+        <Typography
           placeholder={""}
-        variant="h1" color="blue-gray" className="mb-4">
-          Diverse Learning Resources
+          variant="h1" color="blue-gray" className="mb-4">
+          Diverse Rich Features
         </Typography>
         <Typography
           variant="lead"
           placeholder={""}
           className="mx-auto w-full px-4 !text-gray-500 lg:w-11/12 lg:px-8 "
         >
-          Access your learning materials on the go. Whether you&apos;re
-          commuting, waiting for a friend, or just have a few minutes to spare,
-          our app fits seamlessly into your busy life.
+          Unlock the true potential of your voice. Join VerbalInsightHub today and turn your audio and video content into compelling, impactful transcripts.
         </Typography>
       </div>
       <div className="container mx-auto grid max-w-6xl grid-cols-1 gap-4 gap-y-12 md:grid-cols-2">

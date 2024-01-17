@@ -13,19 +13,19 @@ export function Footer() {
           <div className="text-center md:text-left">
             <Typography
               as="a"
-              href="https://www.material-tailwind.com"
-              target="_blank"
+              // href="https://www.material-tailwind.com"
+              // target="_blank"
               placeholder={""}
               variant="h5"
               color="white"
               className="mb-4"
             >
-              Transcriber
+              Verbal Insight Hub
             </Typography>
             <Typography
               placeholder={""}
               color="white" className="mb-12 font-normal">
-              Unlock the Power of Seamless Communication with Our Cutting-Edge SaaS Platform.
+              Unlock the Power of Seamless Transformation with Our Cutting-Edge SaaS Platform.
             </Typography>
             {/* <ul className="flex flex-wrap items-center justify-center md:justify-start">
               {LINKS.map((link, idx) => (
@@ -63,7 +63,7 @@ export function Footer() {
                   className="-mt-0.5 mr-2 h-6 w-6"
                   alt="ios"
                 /> */}
-                Transcriber
+                Verbal Insight Hub
               </Button>
               {/* <Button
                 color="white"

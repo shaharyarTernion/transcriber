@@ -71,12 +71,12 @@ export function Navbar() {
         <Typography
           placeholder={""}
           as="a"
-          href="https://www.material-tailwind.com"
-          target="_blank"
+          // href="https://www.material-tailwind.com"
+          // target="_blank"
           variant="h6"
           color={isScrolling ? "gray" : "white"}
         >
-          Transcriber
+          Verbal Insight Hub
         </Typography>
         {/* <ul
           className={`ml-10 hidden items-center gap-6 lg:flex ${
@@ -118,7 +118,7 @@ export function Navbar() {
             </Button>
           </a>
         </div> */}
-        <IconButton
+        {/* <IconButton
           placeholder={""}
           variant="text"
           color={isScrolling ? "gray" : "white"}
@@ -130,7 +130,7 @@ export function Navbar() {
           ) : (
             <Bars3Icon strokeWidth={2} className="h-6 w-6" />
           )}
-        </IconButton>
+        </IconButton> */}
       </div>
       {/* <Collapse open={open}>
         <div className="container mx-auto mt-4 rounded-lg border-t border-blue-gray-50 bg-white px-6 py-5">

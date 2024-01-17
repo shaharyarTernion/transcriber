@@ -13,20 +13,19 @@ function Hero() {
             <Typography
               placeholder={""}
               variant="h1" color="white" className="mb-4">
-              Your Perfect <br /> Transcribing App
+              Your Perfect <br /> Video and Audio Transformation App
             </Typography>
             <Typography
           placeholder={""}
               variant="lead"
               className="mb-7 !text-white md:pr-16 xl:pr-28"
             >
-              Our app is here to transcript your audions and videos,
-              with great effeciency.
+              Unlock the Power of You with AI.
             </Typography>
             <Typography
               placeholder={""}
               className="mb-4" color="white" variant="h6">
-              Goto the app
+              Effortless Transcription, Intelligent Insights, Elevate Your Content
             </Typography>
             <div className="flex flex-col gap-2 md:mb-2 md:w-10/12 md:flex-row">
               <Button
@@ -74,14 +73,14 @@ function Hero() {
           <Typography
             placeholder={""}
             variant="h3" color="blue-gray" className="mb-3">
-            Your Ultimate Transcription and Translation Solution!
+            Welcome to VIH, where your words come to life!
           </Typography>
           <Typography
             placeholder={""}
             variant="paragraph"
             className="font-normal !text-gray-500 lg:w-5/12"
           >
-            Are you tired of spending hours manually transcribing audio and video files? Do language barriers hinder your global communication efforts? Look no further! Transcriber is here to revolutionize the way you handle audio and video content.
+            Transform your audio and video files into accurate transcripts effortlessly. Not just that, our intelligent analysis goes beyond transcription, offering insights to enhance the quality of your speech content. Elevate your communication, captivate your audience, and make your voice truly heard.
           </Typography>
         </div>
       </div>

@@ -21,9 +21,9 @@ export function TestimonialCard({
       <CardBody
         placeholder={""}
       >
-        <Avatar
+        {/* <Avatar
           placeholder={""}
-          src={img} className="mb-3" alt={client} size="lg" />
+          src={img} className="mb-3" alt={client} size="lg" /> */}
         <Typography
           placeholder={""}
           variant="h6" color="blue-gray">

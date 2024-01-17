@@ -9,24 +9,24 @@ import TestimonialCard from "../components/testimonial-card";
 const TESTIMONIALS = [
   {
     feedback:
-      "It has been a game-changer for my business. Their dedication, expertise, and attention to detail have truly set them apart. I highly recommend their services!",
-    client: "Jessica Devis",
-    title: "CEO @ MARKETING DIGITAL LTD.",
-    img: "/image/avatar1.jpg",
+     `Transformative! This app delivers impeccable transcriptions and insightful analysis. It's my go-to tool for elevating content creation. Highly recommended!`,
+    client: "Pardeep Kumar",
+    title: "",
+    img: "",
   },
   {
     feedback:
-      "It understood my unique needs and delivered a tailored solution promptly. Their customer support is top-notch, and I appreciate their commitment.",
+      "Verbal Insight Hub not only transcribes flawlessly but also enhances my communication skills. Speaker identification and organization features are game-changers for productivity.",
     client: "Mary Joshiash",
-    title: "MARKETING @ APPLE INC.",
-    img: "/image/avatar2.jpg",
+    title: "",
+    img: "",
   },
   {
     feedback:
-      "They not only met but exceeded our expectations. Their innovative approach and technical proficiency have been instrumental in our success.",
+      "A language lover's dream! It nails multi-lingual support and goes beyond with AI-driven summarization. It's an essential tool for language enthusiasts like me.",
     client: "Marcell Glock",
-    title: "CFO @ APPLE INC..",
-    img: "/image/avatar3.jpg",
+    title: "",
+    img: "  ",
   },
 ];
 
@@ -41,7 +41,7 @@ export function Testimonials() {
           <Typography
             placeholder={""}
             variant="h2" color="blue-gray" className="mb-2">
-            What Clients Say
+            What Users Say
           </Typography>
           <Typography
             placeholder={""}

@@ -19,7 +19,7 @@ const OPTIONS = [
     description: "Support",
   },
   {
-    title: "5/5",
+    title: "4.8/5",
     description: "Review Stars",
   },
 ];
@@ -46,7 +46,7 @@ export function MobileConvenience() {
             placeholder={""}
             className="mb-5 px-4 text-left  text-xl !text-gray-500 lg:px-0  "
           >
-            Access your learning materials on the go.
+            Access and share your materials anywhere, anytime.
           </Typography>
 
           <div className="col-span-2 grid gap-5 grid-cols-2 ">
