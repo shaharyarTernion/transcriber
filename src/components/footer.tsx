@@ -13,7 +13,7 @@ export function Footer() {
           <div className="text-center md:text-left">
             <Typography
               as="a"
-              // href="https://www.material-tailwind.com"
+              href="https://app.transciptvideo.com"
               // target="_blank"
               placeholder={""}
               variant="h5"

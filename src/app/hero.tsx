@@ -28,21 +28,26 @@ function Hero() {
               Effortless Transcription, Intelligent Insights, Elevate Your Content
             </Typography>
             <div className="flex flex-col gap-2 md:mb-2 md:w-10/12 md:flex-row">
-              <Button
+
+              <Typography
+                as="a"
+                href="https://app.transciptvideo.com"
+                // target="_blank"
+                placeholder={""}
+                variant="h5"
+                color="white"
+                className="mb-4"
+              >              <Button
                 size="lg"
                 placeholder={""}
                 color="white"
                 className="flex justify-center items-center gap-3"
               >
-                {/* <Image
-                  width={256}
-                  height={256}
-                  // src="/logos/logo-apple.png"
-                  alt="metamask"
-                  className="w-6 h-6"
-                /> */}
-                Lets start
-              </Button>
+                  Lets start
+                </Button>
+
+              </Typography>
+
               {/* <Button
                 size="lg"
                 color="white"
