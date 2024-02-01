@@ -9,25 +9,25 @@ import TestimonialCard from "../components/testimonial-card";
 const TESTIMONIALS = [
   {
     feedback:
-      `Transformative! This app delivers impeccable transcriptions and insightful analysis. It's my go-to tool for elevating content creation. Highly recommended!`,
+      `Transcipt Video not only transcribes flawlessly but also enhances my communication skills. Speaker identification and organization features are game-changers for productivity.`,
     client: "Pardeep Kumar",
     title: "",
     img: "",
   },
-  {
-    feedback:
-      "Transcipt Video not only transcribes flawlessly but also enhances my communication skills. Speaker identification and organization features are game-changers for productivity.",
-    client: "Mary Joshiash",
-    title: "",
-    img: "",
-  },
-  {
-    feedback:
-      "A language lover's dream! It nails multi-lingual support and goes beyond with AI-driven summarization. It's an essential tool for language enthusiasts like me.",
-    client: "Marcell Glock",
-    title: "",
-    img: "  ",
-  },
+  // {
+  //   feedback:
+  //     "Transcipt Video not only transcribes flawlessly but also enhances my communication skills. Speaker identification and organization features are game-changers for productivity.",
+  //   client: "Mary Joshiash",
+  //   title: "",
+  //   img: "",
+  // },
+  // {
+  //   feedback:
+  //     "A language lover's dream! It nails multi-lingual support and goes beyond with AI-driven summarization. It's an essential tool for language enthusiasts like me.",
+  //   client: "Marcell Glock",
+  //   title: "",
+  //   img: "  ",
+  // },
 ];
 
 export function Testimonials() {
