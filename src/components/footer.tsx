@@ -20,7 +20,7 @@ export function Footer() {
               color="white"
               className="mb-4"
             >
-              Verbal Insight Hub
+              Transcipt Video
             </Typography>
             <Typography
               placeholder={""}
@@ -63,7 +63,7 @@ export function Footer() {
                   className="-mt-0.5 mr-2 h-6 w-6"
                   alt="ios"
                 /> */}
-                Verbal Insight Hub
+                Transcipt Video
               </Button>
               {/* <Button
                 color="white"

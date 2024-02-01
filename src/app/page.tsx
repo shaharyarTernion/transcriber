@@ -10,7 +10,7 @@ import Testimonials from "./testimonials";
 import Faqs from "./faqs";
 
 export const metadata = {
-  title: "Verbal Insight Hub",
+  title: "Transcipt Video",
   description: "Enhance your videos and audios game through AI ",
 };
 

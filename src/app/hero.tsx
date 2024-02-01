@@ -16,7 +16,7 @@ function Hero() {
               Your Perfect <br /> Video and Audio Transformation App
             </Typography>
             <Typography
-          placeholder={""}
+              placeholder={""}
               variant="lead"
               className="mb-7 !text-white md:pr-16 xl:pr-28"
             >
@@ -73,7 +73,7 @@ function Hero() {
           <Typography
             placeholder={""}
             variant="h3" color="blue-gray" className="mb-3">
-            Welcome to VIH, where your words come to life!
+            Welcome to TV, where your words come to life!
           </Typography>
           <Typography
             placeholder={""}

@@ -9,14 +9,14 @@ import TestimonialCard from "../components/testimonial-card";
 const TESTIMONIALS = [
   {
     feedback:
-     `Transformative! This app delivers impeccable transcriptions and insightful analysis. It's my go-to tool for elevating content creation. Highly recommended!`,
+      `Transformative! This app delivers impeccable transcriptions and insightful analysis. It's my go-to tool for elevating content creation. Highly recommended!`,
     client: "Pardeep Kumar",
     title: "",
     img: "",
   },
   {
     feedback:
-      "Verbal Insight Hub not only transcribes flawlessly but also enhances my communication skills. Speaker identification and organization features are game-changers for productivity.",
+      "Transcipt Video not only transcribes flawlessly but also enhances my communication skills. Speaker identification and organization features are game-changers for productivity.",
     client: "Mary Joshiash",
     title: "",
     img: "",

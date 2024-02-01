@@ -1,4 +1,7 @@
-
+export const metadata = {
+    title: "Transcipt Video",
+    description: "Transcipt Video",
+};
 export * from "./hero";
 export * from "./layout";
 export * from "./page";
