@@ -23,22 +23,19 @@ const FEATURES = [
     icon: HeartIcon,
     title: "Intelligent Analysis",
     children:
-      `Receive detailed insights on speech clarity, pace, and tone.
-Identify filler words, pauses, and speech patterns for improvement.`,
+      `The language detection feature identifies the language of given text, ensuring accurate processing and localization. Simultaneously, sentiment analysis gauges the emotional tone within the content, providing valuable insights into the expressed sentiments, whether positive, negative, neutral, or a mix`,
   },
   {
     icon: LockClosedIcon,
-    title: "Customizable Reports",
+    title: "Export Transcript",
     children:
-      `Access comprehensive analysis reports on various attributes.
-Track your speech improvement over time and measure audience engagement.`,
+      `Enables users to seamlessly convert audio or text transcripts into PDF format, offering a convenient and shareable document for offline reference or distribution`,
   },
   {
     icon: LightBulbIcon,
-    title: "Content Enhancement",
+    title: "Content Translation",
     children:
-      `Seamlessly add annotations, key points, or corrections to your transcripts.
-Elevate your speech content with intelligent suggestions for clarity and impact.
+      `Empower your content with global reach by leveraging the translation feature, allowing users to seamlessly translate transcripts or text into up to 75 languages. Enhance communication and accessibility on a global scale, breaking language barriers and ensuring that your content resonates with a diverse audience worldwide.
 `,
   },
 ];

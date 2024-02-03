@@ -25,7 +25,7 @@ export function Footer() {
             <Typography
               placeholder={""}
               color="white" className="mb-12 font-normal">
-              Unlock the Power of Seamless Transformation with Our Cutting-Edge SaaS Platform.
+              Unlock the Power of Seamless Transformation with Our Cutting-Edge Platform.
             </Typography>
             {/* <ul className="flex flex-wrap items-center justify-center md:justify-start">
               {LINKS.map((link, idx) => (

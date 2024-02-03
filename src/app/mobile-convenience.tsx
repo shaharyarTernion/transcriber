@@ -11,16 +11,16 @@ const OPTIONS = [
     description: "Language Options",
   },
   {
-    title: "500+",
-    description: "Happy Customers",
+    title: "Meaningful",
+    description: " Analysis",
   },
   {
     title: "24/7",
     description: "Support",
   },
   {
-    title: "4.8/5",
-    description: "Review Stars",
+    title: "Encryption",
+    description: "Industry Standard",
   },
 ];
 

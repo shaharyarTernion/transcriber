@@ -13,14 +13,14 @@ function Hero() {
             <Typography
               placeholder={""}
               variant="h1" color="white" className="mb-4">
-              Your Perfect <br /> Video and Audio Transformation App
+              Your Perfect <br /> Video and Audio Transcription App
             </Typography>
             <Typography
               placeholder={""}
               variant="lead"
               className="mb-7 !text-white md:pr-16 xl:pr-28"
             >
-              Unlock the Power of You with AI.
+              Unlock the Power with AI for Free.
             </Typography>
             <Typography
               placeholder={""}
