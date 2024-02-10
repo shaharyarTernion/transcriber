@@ -9,7 +9,7 @@ import TestimonialCard from "../components/testimonial-card";
 const TESTIMONIALS = [
   {
     feedback:
-      `Transcipt Video not only transcribes flawlessly but also enhances my communication skills. Speaker identification and organization features are game-changers for productivity.`,
+      `Video Transcription not only transcribes flawlessly but also enhances my communication skills. Speaker identification and organization features are game-changers for productivity.`,
     client: "Pardeep Kumar",
     title: "",
     img: "",

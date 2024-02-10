@@ -10,7 +10,7 @@ import Testimonials from "./testimonials";
 import Faqs from "./faqs";
 
 export const metadata = {
-  title: "Transcipt Video",
+  title: "Video Transcription",
   description: "Enhance your videos and audios game through AI ",
 };
 

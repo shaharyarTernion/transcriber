@@ -20,7 +20,7 @@ export function Footer() {
               color="white"
               className="mb-4"
             >
-              Transcipt Video
+              Video Transcription
             </Typography>
             <Typography
               placeholder={""}
@@ -63,7 +63,7 @@ export function Footer() {
                   className="-mt-0.5 mr-2 h-6 w-6"
                   alt="ios"
                 /> */}
-                Transcipt Video
+                Video Transcription
               </Button>
               {/* <Button
                 color="white"

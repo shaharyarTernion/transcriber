@@ -76,7 +76,7 @@ export function Navbar() {
           variant="h6"
           color={isScrolling ? "gray" : "white"}
         >
-          Transcipt Video
+          Video Transcription
         </Typography>
         {/* <ul
           className={`ml-10 hidden items-center gap-6 lg:flex ${
