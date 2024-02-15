@@ -9,7 +9,7 @@ import TestimonialCard from "../components/testimonial-card";
 const TESTIMONIALS = [
   {
     feedback:
-      `Video Transcription not only transcribes flawlessly but also enhances my communication skills. Speaker identification and organization features are game-changers for productivity.`,
+      `Videos Transcription not only transcribes flawlessly but also enhances my communication skills. Speaker identification and organization features are game-changers for productivity.`,
     client: "Pardeep Kumar",
     title: "",
     img: "",
@@ -40,7 +40,7 @@ export function Testimonials() {
           </div>
           <Typography
             placeholder={""}
-            variant="h2" color="blue-gray" className="mb-2">
+            variant="h2" color="current" className="mb-2">
             What Users Say
           </Typography>
           <Typography

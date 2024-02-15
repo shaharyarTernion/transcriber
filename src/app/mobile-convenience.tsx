@@ -38,7 +38,7 @@ export function MobileConvenience() {
         <div className="col-span-1 mx-auto max-w-lg px-4 lg:px-0">
           <Typography
             placeholder={""}
-            variant="h2" color="blue-gray" className="mb-4">
+            variant="h2" color="current" className="mb-4">
             Mobile Convenience
           </Typography>
           <Typography

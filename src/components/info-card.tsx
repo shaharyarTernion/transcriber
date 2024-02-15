@@ -18,7 +18,7 @@ export function InfoCard({ title, children }: InfoCardProps) {
         className="grid px-0">
         <Typography
           placeholder={""}
-          variant="h2" color="blue-gray" className="mb-2">
+          variant="h2" color="current" className="mb-2">
           {title}
         </Typography>
         <Typography

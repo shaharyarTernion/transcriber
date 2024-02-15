@@ -7,7 +7,7 @@ import { Button, Typography } from "@material-tailwind/react";
 function Hero() {
   return (
     <div className="relative min-h-screen w-full">
-      <header className="grid !min-h-[49rem] bg-gray-900 px-8">
+      <header className="grid !min-h-[49rem] bg-[#2C86EB] px-8">
         <div className="container mx-auto mt-32 grid h-full w-full grid-cols-1 place-items-center lg:mt-14 lg:grid-cols-2">
           <div className="col-span-1">
             <Typography
@@ -19,8 +19,8 @@ function Hero() {
               placeholder={""}
               variant="lead"
               className="mb-7 !text-white md:pr-16 xl:pr-28"
-            >
-              Unlock the Power with AI for Free.
+            >Near Real time Natural Language Processing
+              of your content for Free.
             </Typography>
             <Typography
               placeholder={""}
@@ -31,7 +31,7 @@ function Hero() {
 
               <Typography
                 as="a"
-                href="https://app.transciptvideo.com"
+                href="https://app.videostranscription.com"
                 // target="_blank"
                 placeholder={""}
                 variant="h5"
@@ -78,7 +78,7 @@ function Hero() {
           <Typography
             placeholder={""}
             variant="h3" color="blue-gray" className="mb-3">
-            Welcome to TV, where your words come to life!
+            Welcome to VsT, where your words come to life!
           </Typography>
           <Typography
             placeholder={""}

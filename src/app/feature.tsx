@@ -51,7 +51,7 @@ export function Features() {
         </Typography>
         <Typography
           placeholder={""}
-          variant="h1" color="blue-gray" className="mb-4">
+          variant="h1" color="current" className="mb-4">
           Diverse Rich Features
         </Typography>
         <Typography
@@ -59,7 +59,7 @@ export function Features() {
           placeholder={""}
           className="mx-auto w-full px-4 !text-gray-500 lg:w-11/12 lg:px-8 "
         >
-          Unlock the true potential of your voice. Join VerbalInsightHub today and turn your audio and video content into compelling, impactful transcripts.
+          Unlock the true potential of your voice. Join Videos Transcription today and turn your audio and video content into compelling, impactful transcripts.
         </Typography>
       </div>
       <div className="container mx-auto grid max-w-6xl grid-cols-1 gap-4 gap-y-12 md:grid-cols-2">

@@ -2,40 +2,40 @@ import React from "react";
 import {
   Navbar as MTNavbar,
   // Collapse,
-  IconButton,
+  // IconButton,
   Typography,
   // Button,
 } from "@material-tailwind/react";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+// import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 interface NavItemProps {
   children: React.ReactNode;
   href?: string;
 }
-function NavItem({ children, href }: NavItemProps) {
-  return (
-    <li>
-      <Typography
-        placeholder={""}
-        as="a"
-        href={href || "#"}
-        target={href ? "_blank" : "_self"}
-        variant="small"
-        className="font-medium"
-      >
-        {children}
-      </Typography>
-    </li>
-  );
-}
+// function NavItem({ children, href }: NavItemProps) {
+//   return (
+//     <li>
+//       <Typography
+//         placeholder={""}
+//         as="a"
+//         href={href || "#"}
+//         target={href ? "_blank" : "_self"}
+//         variant="small"
+//         className="font-medium"
+//       >
+//         {children}
+//       </Typography>
+//     </li>
+//   );
+// }
 
 export function Navbar() {
   const [open, setOpen] = React.useState(false);
   const [isScrolling, setIsScrolling] = React.useState(false);
 
-  function handleOpen() {
-    setOpen((cur) => !cur);
-  }
+  // function handleOpen() {
+  //   setOpen((cur) => !cur);
+  // }
 
   React.useEffect(() => {
     window.addEventListener(
@@ -69,14 +69,15 @@ export function Navbar() {
     >
       <div className="container mx-auto flex items-center justify-between">
         <Typography
+          className=""
           placeholder={""}
           as="a"
-          // href="https://www.material-tailwind.com"
+          href="https://app.videostranscription.com"
           // target="_blank"
           variant="h6"
-          color={isScrolling ? "gray" : "white"}
+          color={isScrolling ? "current" : "white"}
         >
-          Video Transcription
+          Videos Transcription
         </Typography>
         {/* <ul
           className={`ml-10 hidden items-center gap-6 lg:flex ${

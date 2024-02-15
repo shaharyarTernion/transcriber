@@ -7,20 +7,20 @@ const CURRENT_YEAR = new Date().getFullYear();
 
 export function Footer() {
   return (
-    <footer className="mt-10 bg-gray-900 px-8 pt-12">
+    <footer className="mt-10 bg-[#2C86EB] px-8 pt-12">
       <div className="container mx-auto">
         <div className="flex flex-wrap justify-center gap-8 md:justify-between">
           <div className="text-center md:text-left">
             <Typography
               as="a"
-              href="https://app.transciptvideo.com"
+              href="https://app.videostranscription.com"
               // target="_blank"
               placeholder={""}
               variant="h5"
               color="white"
               className="mb-4"
             >
-              Video Transcription
+              Videos Transcription
             </Typography>
             <Typography
               placeholder={""}
@@ -51,20 +51,29 @@ export function Footer() {
               Get the app
             </Typography>
             <div className="flex flex-col gap-2">
-              <Button
-                placeholder={""}
-                color="white"
-                className="flex items-center justify-center"
+              <Typography
+                href="https://app.videostranscription.com"
+                placeholder={null}
+                as="a"
               >
-                {/* <Image
+
+
+                <Button
+                  placeholder={""}
+                  color="white"
+                  className="flex items-center justify-center"
+                >
+                  {/* <Image
                   width={256}
                   height={256}
                   src="/logos/logo-apple.png"
                   className="-mt-0.5 mr-2 h-6 w-6"
                   alt="ios"
                 /> */}
-                Video Transcription
-              </Button>
+                  Videos Transcription
+                </Button>
+              </Typography>
+
               {/* <Button
                 color="white"
                 className="flex items-center justify-center"
