@@ -3,7 +3,7 @@
 import React from "react";
 import { Typography } from "@material-tailwind/react";
 
-export function Faqser() {
+export default function Campaign() {
   return (
     <section className="py-24 px-4">
       <div className="container mx-auto mb-20 text-left">
@@ -81,5 +81,3 @@ export function Faqser() {
     </section>
   );
 }
-
-export default Faqser;
