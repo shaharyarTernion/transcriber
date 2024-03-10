@@ -72,7 +72,7 @@ export function Navbar() {
           className=""
           placeholder={""}
           as="a"
-          href="https://app.videostranscription.com"
+          href="/"
           // target="_blank"
           variant="h6"
           color={isScrolling ? "current" : "white"}

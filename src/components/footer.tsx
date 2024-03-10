@@ -7,13 +7,13 @@ const CURRENT_YEAR = new Date().getFullYear();
 
 export function Footer() {
   return (
-    <footer className="mt-10 bg-[#2C86EB] px-8 pt-12">
+    <footer className="mt-3 bg-[#2C86EB] px-8 pt-9">
       <div className="container mx-auto">
         <div className="flex flex-wrap justify-center gap-8 md:justify-between">
           <div className="text-center md:text-left">
             <Typography
               as="a"
-              href="https://app.videostranscription.com"
+              href="/"
               // target="_blank"
               placeholder={""}
               variant="h5"
@@ -24,9 +24,27 @@ export function Footer() {
             </Typography>
             <Typography
               placeholder={""}
-              color="white" className="mb-12 font-normal">
-              Unlock the Power of Seamless Transformation with Our Cutting-Edge Platform.
+              color="white"
+              className="mb-5 font-normal"
+            >
+              Unlock the Power of Seamless Transformation with Our Cutting-Edge
+              Platform.
             </Typography>
+
+            <ul className="flex flex-wrap items-center justify-center md:justify-start">
+              <li>
+                <Typography
+                  as="a"
+                  placeholder={""}
+                  href="/privacypolicy"
+                  color="black"
+                  className={`py-1 font-medium transition-colors mb-5`}
+                >
+                  Privacy Policy available here.
+                </Typography>
+              </li>
+            </ul>
+
             {/* <ul className="flex flex-wrap items-center justify-center md:justify-start">
               {LINKS.map((link, idx) => (
                 <li key={link}>
@@ -47,7 +65,10 @@ export function Footer() {
           <div className="mt-8 w-full md:mt-0 md:w-auto">
             <Typography
               placeholder={""}
-              variant="h6" color="white" className="mb-3">
+              variant="h6"
+              color="white"
+              className="mb-3"
+            >
               Get the app
             </Typography>
             <div className="flex flex-col gap-2">
@@ -56,8 +77,6 @@ export function Footer() {
                 placeholder={null}
                 as="a"
               >
-
-
                 <Button
                   placeholder={""}
                   color="white"
