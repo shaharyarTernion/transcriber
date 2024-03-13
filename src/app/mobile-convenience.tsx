@@ -7,20 +7,20 @@ import { Typography, Card, CardBody } from "@material-tailwind/react";
 
 const OPTIONS = [
   {
-    title: "75",
-    description: "Language Options",
+    title: "102 ",
+    description: "Languages support for Transcription",
   },
   {
-    title: "Meaningful",
-    description: " Analysis",
+    title: "Email",
+    description: "Support available",
   },
   {
-    title: "24/7",
-    description: "Support",
+    title: "75 ",
+    description: "Languages support for Translation",
   },
   {
-    title: "Encryption",
-    description: "Industry Standard",
+    title: "Premium",
+    description: "includes deep content analysis",
   },
 ];
 
