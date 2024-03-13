@@ -30,7 +30,7 @@ export default function RootLayout({
           crossOrigin="anonymous"
           referrerPolicy="no-referrer"
         />
-        {/* <link rel="shortcut icon" href="/favicon.png" type="image/png" /> */}
+        <link rel="shortcut icon" href="/favicon.png" type="image/png" />
       </head>
       <body className={roboto.className}>
         <Layout>
