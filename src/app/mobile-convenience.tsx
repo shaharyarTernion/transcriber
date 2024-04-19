@@ -29,9 +29,9 @@ export function MobileConvenience() {
     <section className="py-20 px-8">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto items-center">
         <Image
-          width={256}
-          height={256}
-          src="/image/iphone.png"
+          width={420}
+          height={809}
+          src="/image/33.jpg"
           className="col-span-1 w-1/2 mx-auto lg:w-10/12"
           alt="iphone-photo"
         />
