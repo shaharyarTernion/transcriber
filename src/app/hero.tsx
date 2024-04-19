@@ -37,7 +37,8 @@ function Hero() {
                 variant="h5"
                 color="white"
                 className="mb-4"
-              >              <Button
+              >
+                <Button
                 size="lg"
                 placeholder={""}
                 color="white"
