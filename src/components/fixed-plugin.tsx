@@ -5,7 +5,7 @@ import { Button } from "@material-tailwind/react";
 export function FixedPlugin() {
   return (
     <a href="https://www.material-tailwind.com" target="_blank">
-      <Button
+      <Button onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
         placeholder={""}
         color="white"
         size="sm"

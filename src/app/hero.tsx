@@ -39,7 +39,7 @@ function Hero() {
                 color="white"
                 className="mb-4"
               >
-                <Button
+                <Button onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
                 size="lg"
                 placeholder={""}
                 color="white"

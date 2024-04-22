@@ -77,7 +77,7 @@ export function Footer() {
                 placeholder={null}
                 as="a"
               >
-                <Button
+                <Button onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
                   placeholder={""}
                   color="white"
                   className="flex items-center justify-center"
