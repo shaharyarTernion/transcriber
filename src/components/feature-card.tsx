@@ -14,9 +14,11 @@ interface FeatureCardProps {
 export function FeatureCard({ icon: Icon, title, children }: FeatureCardProps) {
   return (
     <Card
+      onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
       placeholder={""}
       color="transparent" shadow={false}>
       <CardBody
+        onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
         placeholder={""}
         className="grid justify-start">
         <div className="mb-4 grid h-12 w-12 place-content-center rounded-lg bg-[#2C86EB] p-2.5 text-left text-white">

@@ -10,10 +10,10 @@ interface InfoCardProps {
 
 export function InfoCard({ title, children }: InfoCardProps) {
   return (
-    <Card
+    <Card onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
       placeholder={""}
       color="transparent" shadow={false}>
-      <CardBody
+      <CardBody onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
         placeholder={""}
         className="grid px-0">
         <Typography onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}

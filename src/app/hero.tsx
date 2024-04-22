@@ -71,7 +71,7 @@ function Hero() {
             height={324}
             src="/image/3.png"
             alt="1"
-            className="rounded col-span-1 my-20 max-h-[20rem] sm:max-h-0 sm:hidden -translate-y-32 md:max-h-[16rem] lg:my-0 lg:ml-auto lg:max-h-[30rem] lg:translate-y-0"
+            className="rounded-lg sm:hidden md:block col-span-1 my-20 max-h-[20rem] -translate-y-32 md:max-h-[16rem] lg:my-0 lg:ml-auto lg:max-h-[30rem] lg:translate-y-0"
 
           />
         </div>

@@ -15,10 +15,10 @@ export function TestimonialCard({
   title,
 }: TestimonialCardProps) {
   return (
-    <Card
+    <Card onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
       placeholder={""}
       shadow={false} className="items-center text-center">
-      <CardBody
+      <CardBody onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
         placeholder={""}
       >
         {/* <Avatar
