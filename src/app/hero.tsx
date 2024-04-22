@@ -37,7 +37,8 @@ function Hero() {
                 variant="h5"
                 color="white"
                 className="mb-4"
-              >              <Button
+              >
+                <Button
                 size="lg"
                 placeholder={""}
                 color="white"
@@ -65,15 +66,16 @@ function Hero() {
             </div>
           </div>
           <Image
-            width={470}
-            height={576}
-            src="/image/iphones.png"
-            alt="team work"
-            className="col-span-1 my-20 h-full max-h-[30rem] -translate-y-32 md:max-h-[36rem] lg:my-0 lg:ml-auto lg:max-h-[40rem] lg:translate-y-0"
+            width={359}
+            height={324}
+            src="/image/3.png"
+            alt="1"
+            className="rounded col-span-1 my-20 max-h-[20rem] sm:max-h-0 sm:hidden -translate-y-32 md:max-h-[16rem] lg:my-0 lg:ml-auto lg:max-h-[30rem] lg:translate-y-0"
+
           />
         </div>
       </header>
-      <div className="mx-8 lg:mx-16 -mt-24 rounded-xl bg-white p-5 md:p-14 shadow-md">
+      <div className="mx-8 lg:mx-16 -mt-24 rounded-xl bg-white p-5 md:p-14 shadow-md z-50">
         <div>
           <Typography
             placeholder={""}
