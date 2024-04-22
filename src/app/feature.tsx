@@ -46,15 +46,18 @@ export function Features() {
       <div className="container mx-auto mb-20 text-center">
         <Typography
           placeholder={""}
+          onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
           color="blue-gray" className="mb-2 font-bold uppercase">
           Your Elevating App
         </Typography>
         <Typography
+          onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
           placeholder={""}
           variant="h1" color="current" className="mb-4">
           Diverse Rich Features
         </Typography>
         <Typography
+          onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
           variant="lead"
           placeholder={""}
           className="mx-auto w-full px-4 !text-gray-500 lg:w-11/12 lg:px-8 "

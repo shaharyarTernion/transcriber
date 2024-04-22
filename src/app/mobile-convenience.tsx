@@ -36,12 +36,12 @@ export function MobileConvenience() {
           alt="iphone-photo"
         />
         <div className="col-span-1 mx-auto max-w-lg px-4 lg:px-0">
-          <Typography
+          <Typography onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
             placeholder={""}
             variant="h2" color="current" className="mb-4">
             Mobile Convenience
           </Typography>
-          <Typography
+          <Typography onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
             variant="lead"
             placeholder={""}
             className="mb-5 px-4 text-left  text-xl !text-gray-500 lg:px-0  "

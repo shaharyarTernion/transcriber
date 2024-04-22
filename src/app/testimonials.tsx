@@ -38,13 +38,13 @@ export function Testimonials() {
           <div className="mb-10 flex h-12 w-12 items-center justify-center rounded-lg bg-gray-900 text-white ">
             <UserIcon className="h-6 w-6" />
           </div>
-          <Typography
+          <Typography onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
             placeholder={""}
             variant="h2" color="current" className="mb-2">
             What Users Say
           </Typography>
           <Typography
-            placeholder={""}
+            placeholder={""} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
             variant="lead"
             className="mb-10 max-w-3xl text-center !text-gray-600"
           >

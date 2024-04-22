@@ -11,26 +11,27 @@ function Hero() {
         <div className="container mx-auto mt-32 grid h-full w-full grid-cols-1 place-items-center lg:mt-14 lg:grid-cols-2">
           <div className="col-span-1">
             <Typography
+              onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
               placeholder={""}
               variant="h1" color="white" className="mb-4">
               Your Perfect <br /> Video and Audio Transcription App
             </Typography>
             <Typography
-              placeholder={""}
+              placeholder={""} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
               variant="lead"
               className="mb-7 !text-white md:pr-16 xl:pr-28"
             >Near Real time Natural Language Processing
               of your content for Free.
             </Typography>
             <Typography
-              placeholder={""}
+              placeholder={""} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
               className="mb-4" color="white" variant="h6">
               Effortless Transcription, Intelligent Insights, Elevate Your Content
             </Typography>
             <div className="flex flex-col gap-2 md:mb-2 md:w-10/12 md:flex-row">
 
               <Typography
-                as="a"
+                as="a" onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
                 href="https://app.videostranscription.com"
                 // target="_blank"
                 placeholder={""}
@@ -78,11 +79,11 @@ function Hero() {
       <div className="mx-8 lg:mx-16 -mt-24 rounded-xl bg-white p-5 md:p-14 shadow-md z-50">
         <div>
           <Typography
-            placeholder={""}
+            placeholder={""} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
             variant="h3" color="blue-gray" className="mb-3">
             Welcome to VsT, where your words come to life!
           </Typography>
-          <Typography
+          <Typography onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
             placeholder={""}
             variant="paragraph"
             className="font-normal !text-gray-500 lg:w-5/12"
