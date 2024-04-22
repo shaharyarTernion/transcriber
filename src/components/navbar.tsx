@@ -59,7 +59,7 @@ export function Navbar() {
   }, []);
 
   return (
-    <MTNavbar
+    <MTNavbar onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
       placeholder={""}
       fullWidth
       shadow={false}
