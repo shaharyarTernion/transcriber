@@ -43,7 +43,7 @@ function Hero() {
                 color="white"
                 className="flex justify-center items-center gap-3"
               >
-                  Lets start
+                  Goto App
                 </Button>
 
               </Typography>
