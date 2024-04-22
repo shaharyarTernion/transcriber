@@ -11,7 +11,7 @@ export function Footer() {
       <div className="container mx-auto">
         <div className="flex flex-wrap justify-center gap-8 md:justify-between">
           <div className="text-center md:text-left">
-            <Typography
+            <Typography onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
               as="a"
               href="/"
               // target="_blank"
@@ -22,7 +22,7 @@ export function Footer() {
             >
               Videos Transcription
             </Typography>
-            <Typography
+            <Typography onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
               placeholder={""}
               color="white"
               className="mb-5 font-normal"
@@ -33,7 +33,7 @@ export function Footer() {
 
             <ul className="flex flex-wrap items-center justify-center md:justify-start">
               <li>
-                <Typography
+                <Typography onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
                   as="a"
                   placeholder={""}
                   href="/privacypolicy"
@@ -63,7 +63,7 @@ export function Footer() {
             </ul> */}
           </div>
           <div className="mt-8 w-full md:mt-0 md:w-auto">
-            <Typography
+            <Typography onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
               placeholder={""}
               variant="h6"
               color="white"
@@ -72,7 +72,7 @@ export function Footer() {
               Get the app
             </Typography>
             <div className="flex flex-col gap-2">
-              <Typography
+              <Typography onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
                 href="https://app.videostranscription.com"
                 placeholder={null}
                 as="a"

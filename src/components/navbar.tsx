@@ -68,7 +68,7 @@ export function Navbar() {
       className="fixed top-0 z-50 border-0"
     >
       <div className="container mx-auto flex items-center justify-between">
-        <Typography
+        <Typography onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
           className=""
           placeholder={""}
           as="a"

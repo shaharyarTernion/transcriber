@@ -16,12 +16,12 @@ export function InfoCard({ title, children }: InfoCardProps) {
       <CardBody
         placeholder={""}
         className="grid px-0">
-        <Typography
+        <Typography onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
           placeholder={""}
           variant="h2" color="current" className="mb-2">
           {title}
         </Typography>
-        <Typography
+        <Typography onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
           placeholder={""}
           className=" font-normal">{children}</Typography>
       </CardBody>

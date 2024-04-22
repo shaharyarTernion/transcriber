@@ -22,12 +22,12 @@ export function FeatureCard({ icon: Icon, title, children }: FeatureCardProps) {
         <div className="mb-4 grid h-12 w-12 place-content-center rounded-lg bg-[#2C86EB] p-2.5 text-left text-white">
           <Icon className="h-6 w-6" />
         </div>
-        <Typography
+        <Typography onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
           placeholder={""}
           variant="h5" color="blue-gray" className="mb-2">
           {title}
         </Typography>
-        <Typography
+        <Typography onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
           placeholder={""}
           className=" font-normal !text-gray-500">
           {children}

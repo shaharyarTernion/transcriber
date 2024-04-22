@@ -9,7 +9,7 @@ export default function Campaign() {
       <Navbar />
 
       <section className="py-24 px-4 bg-[#2C86EB]">
-        <Typography
+        <Typography onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
           placeholder={""}
           color="white"
           className="mb-2 text-2xl font-bold uppercase"
@@ -19,7 +19,7 @@ export default function Campaign() {
       </section>
       <section className="py-24 px-4">
         <div className="container mx-auto mb-10 text-left">
-          <Typography
+          <Typography onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
             placeholder={""}
             className="mx-auto w-full mb-8 text-lg text-gray-700 lg:w-10/12"
           >
@@ -27,7 +27,7 @@ export default function Campaign() {
             information from users of our transcription service. By using our
             service, you agree to the terms of this Privacy Policy.
           </Typography>
-          <Typography
+          <Typography onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
             placeholder={""}
             className="mx-auto w-full mb-4 text-lg text-gray-700 lg:w-10/12"
           >
@@ -48,7 +48,7 @@ export default function Campaign() {
             security purposes and to ensure the compatibility of our service
             with different devices.
           </Typography>
-          <Typography
+          <Typography onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
             placeholder={""}
             className="mx-auto w-full mb-4 text-lg text-gray-700 lg:w-10/12"
           >
@@ -61,7 +61,7 @@ export default function Campaign() {
             - To personalize your experience and provide tailored content.
             <br />- To comply with legal obligations.
           </Typography>
-          <Typography
+          <Typography onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
             placeholder={""}
             className="mx-auto w-full mb-4 text-lg text-gray-700 lg:w-10/12"
           >
@@ -79,7 +79,7 @@ export default function Campaign() {
             the user, which we do not share. More details are already shared in
             the usage information above.)
           </Typography>
-          <Typography
+          <Typography onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
             placeholder={""}
             className="mx-auto w-full mb-4 text-lg text-gray-700 lg:w-10/12"
           >
@@ -90,7 +90,7 @@ export default function Campaign() {
             data transmission over the internet can be guaranteed to be 100%
             secure.
           </Typography>
-          <Typography
+          <Typography onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
             placeholder={""}
             className="mx-auto w-full mb-4 text-lg text-gray-700 lg:w-10/12"
           >
@@ -101,7 +101,7 @@ export default function Campaign() {
             choose not to provide certain information, but this may limit your
             ability to use certain features of our service.
           </Typography>
-          <Typography
+          <Typography onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
             placeholder={""}
             className="mx-auto w-full mb-4 text-lg text-gray-700 lg:w-10/12"
           >
@@ -113,7 +113,7 @@ export default function Campaign() {
             update constitutes your acceptance of the updated Privacy Policy.
           </Typography>
 
-          <Typography
+          <Typography onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
             placeholder={""}
             className="mx-auto w-full mb-4 text-lg text-gray-700 lg:w-10/12"
           >
@@ -131,7 +131,7 @@ export default function Campaign() {
             accordance with this policy.
           </Typography>
 
-          <Typography
+          <Typography onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
             placeholder={""}
             className="mx-auto w-full mb-4 text-lg text-gray-700 lg:w-10/12"
           >

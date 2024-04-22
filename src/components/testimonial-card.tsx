@@ -25,16 +25,16 @@ export function TestimonialCard({
           placeholder={""}
           src={img} className="mb-3" alt={client} size="lg" /> */}
         <Typography
-          placeholder={""}
+          placeholder={""} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
           variant="h6" color="blue-gray">
           {client}
         </Typography>
         <Typography
-          placeholder={""}
+          placeholder={""} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
           variant="small" className="mb-3 font-medium !text-gray-700">
           {title}
         </Typography>
-        <Typography
+        <Typography onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
           variant="paragraph"
           placeholder={""}
           className="mb-5 font-normal !text-gray-500"
