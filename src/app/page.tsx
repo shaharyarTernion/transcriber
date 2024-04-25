@@ -11,7 +11,7 @@ import Testimonials from "./testimonials";
 
 export const metadata = {
   title: "Video Transcription",
-  description: "Enhance your videos and audios game through AI ",
+  description: "Enhance your videos and audios game through AI and NLP",
 };
 
 export default function Campaign() {

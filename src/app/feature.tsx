@@ -23,7 +23,7 @@ const FEATURES = [
     icon: HeartIcon,
     title: "Intelligent Analysis",
     children:
-      `The language detection feature identifies the language of given text, ensuring accurate processing and localization. Simultaneously, sentiment analysis gauges the emotional tone within the content, providing valuable insights into the expressed sentiments, whether positive, negative, neutral, or a mix`,
+      `Language detection identifies text language for accurate processing. Sentiment analysis measures emotional tone, providing insights into positive, negative, or neutral sentiments. Summarization analysis yeild you needed summary of your content.`
   },
   {
     icon: LockClosedIcon,

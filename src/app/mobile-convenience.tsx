@@ -7,20 +7,20 @@ import { Typography, Card, CardBody } from "@material-tailwind/react";
 
 const OPTIONS = [
   {
-    title: "102 ",
+    title: "102",
     description: "Languages support for Transcription",
   },
   {
-    title: "Email",
-    description: "Support available",
+    title: "100+",
+    description: "Language support for summarization",
   },
   {
-    title: "75 ",
+    title: "75",
     description: "Languages support for Translation",
   },
   {
-    title: "Premium",
-    description: "includes deep content analysis",
+    title: "Includes",
+    description: "sentiment analysis and language detection",
   },
 ];
 
@@ -32,21 +32,21 @@ export function MobileConvenience() {
           width={420}
           height={809}
           src="/image/33.jpg"
-          className="col-span-1 w-1/2 mx-auto lg:w-10/12"
+          className="col-span-1 w-1/2 mx-auto lg:w-10/12 rounded-lg"
           alt="iphone-photo"
         />
         <div className="col-span-1 mx-auto max-w-lg px-4 lg:px-0">
           <Typography onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
             placeholder={""}
             variant="h2" color="current" className="mb-4">
-            Mobile Convenience
+            AI services
           </Typography>
           <Typography onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
             variant="lead"
             placeholder={""}
             className="mb-5 px-4 text-left  text-xl !text-gray-500 lg:px-0  "
           >
-            Access and share your materials anywhere, anytime.
+            Uses currently one of the top machine learning models
           </Typography>
 
           <div className="col-span-2 grid gap-5 grid-cols-2 ">
