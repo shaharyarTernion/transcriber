@@ -54,7 +54,9 @@ export function Faq() {
                             onClick={() => handleOpen(key + 1)}
                         >
                             <AccordionHeader placeholder={null}
-                                className="text-left text-gray-900">
+                                className="text-left text-gray-900"
+                                onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
+>
                                 {title}
                             </AccordionHeader>
                             <AccordionBody>
