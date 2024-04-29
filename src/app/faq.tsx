@@ -49,6 +49,7 @@ export function Faq() {
                     {FAQS.map(({ title, desc }, key) => (
                         <Accordion
                             key={key} placeholder={null}
+                            onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
 
                             open={open === key + 1}
                             onClick={() => handleOpen(key + 1)}
