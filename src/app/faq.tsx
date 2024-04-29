@@ -14,6 +14,10 @@ const FAQS = [
             "In this service, you can translate content in Afrikaans, Albanian, Amharic, Arabic, Armenian, Azerbaijani, Bengali, Bosnian, Bulgarian, Canadian French, Catalan, Chinese, Chinese Traditional, Croatian, Czech, Danish, Dari, Dutch, English, Estonian, Finnish, French, Georgian, German, Greek, Gujarati, Haitian Creole, Hausa, Hebrew, Hindi, Hungarian, Icelandic, Indonesian, Irish, Italian, Japanese, Kannada, Kazakh, Korean, Latvian, Lithuanian, Macedonian, Malay, Malayalam, Maltese, Marathi, Mexican Spanish, Mongolian, Norwegian, Pashto, Persian, Polish, Portugal Portuguese, Portuguese, Punjabi, Romanian, Russian, Serbian, Sinhala, Slovak, Slovenian, Somali, Spanish, Swahili, Swedish, Tagalog, Tamil, Telugu, Thai, Turkish, Ukrainian, Urdu, Uzbek, Vietnamese, and Welsh.",
     },
     {
+        title: "What AI & machine learning services are in there?",
+        desc: "Transcribe, Translate, Summarize & Comprehend."
+    },
+    {
         title:
             "What summarization model is being used?",
         desc: "Meta Llama 3 70B Instruct"
@@ -57,7 +61,7 @@ export function Faq() {
                             <AccordionHeader placeholder={null}
                                 className="text-left text-gray-900"
                                 onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
->
+                            >
                                 {title}
                             </AccordionHeader>
                             <AccordionBody>
