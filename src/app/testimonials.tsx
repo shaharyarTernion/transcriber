@@ -9,7 +9,7 @@ import TestimonialCard from "../components/testimonial-card";
 const TESTIMONIALS = [
   {
     feedback:
-      `Videos Transcription not only transcribes flawlessly but also enhances my communication skills. Speaker identification and organization features are game-changers for productivity.`,
+      `Your app is a comprehensive language solution, offering flawless transcription in multiple languages, deep content insights, and a powerful translation feature. Its use of a top machine learning model ensures high-quality results. Truly a game-changer for global communication!`,
     client: "Pardeep Kumar",
     title: "",
     img: "",

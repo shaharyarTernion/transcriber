@@ -62,7 +62,7 @@ export function Footer() {
               ))}
             </ul> */}
           </div>
-          <div className="mt-8 w-full md:mt-0 md:w-auto">
+          <div className="mt-0 w-full md:mt-0 md:w-auto flex flex-col justify-center">
             <Typography onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
               placeholder={""}
               variant="h6"
@@ -71,7 +71,7 @@ export function Footer() {
             >
               Get the app
             </Typography>
-            <div className="flex flex-col gap-2">
+            <div className="flex flex-col gap-2 mb-5">
               <Typography onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
                 href="https://app.videostranscription.com"
                 placeholder={null}
