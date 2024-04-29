@@ -26,7 +26,7 @@ function Hero() {
             <Typography
               placeholder={""} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
               className="mb-4" color="white" variant="h6">
-              Effortless Transcription, Intelligent Insights, Elevate Your Content
+              Effortless Transcription,Translation, Summarizaiton and Intelligent Insights, Elevate Your Content
             </Typography>
             <div className="flex flex-col gap-2 md:mb-2 md:w-10/12 md:flex-row">
 
@@ -40,11 +40,11 @@ function Hero() {
                 className="mb-4"
               >
                 <Button onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
-                size="lg"
-                placeholder={""}
-                color="white"
-                className="flex justify-center items-center gap-3"
-              >
+                  size="lg"
+                  placeholder={""}
+                  color="white"
+                  className="flex justify-center items-center gap-3"
+                >
                   Goto App
                 </Button>
 
