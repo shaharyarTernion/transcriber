@@ -33,6 +33,7 @@ export function Faq() {
             <div className="container mx-auto">
                 <div className="text-center">
                     <Typography placeholder={null}
+                        onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
                         variant="h1" color="blue-gray" className="mb-20">
                         Frequently Asked Questions
                     </Typography>
@@ -59,7 +60,7 @@ export function Faq() {
                             <AccordionBody>
                                 <Typography
                                     color="blue-gray" placeholder={null}
-
+                                    onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
                                     className="font-normal text-gray-500"
                                 >
                                     {desc}
