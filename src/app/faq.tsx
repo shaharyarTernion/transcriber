@@ -4,7 +4,7 @@ import React from "react";
 import { Typography, Accordion, AccordionHeader, AccordionBody } from "@material-tailwind/react";
 const FAQS = [
     {
-        title: "What languages are supported for files transcription?",
+        title: "What languages are supported for media files transcription?",
         desc:
             "In this service, you can transcribe audio in Abkhaz, Afrikaans, Arabic, Gulf, Arabic, Modern Standard, Armenian, Asturian, Azerbaijani, Bashkir, Basque, Belarusian, Bengali, Bosnian, Bulgarian, Catalan, Central Kurdish, Iran, Central Kurdish, Iraq, Chinese, Simplified, Chinese, Traditional, Croatian, Czech, Danish, Dutch, English, Australian, English, British, English, Indian, English, Irish, English, New Zealand, English, Scottish, English, South African, English, US, English, Welsh, Estonian, Farsi, Finnish, French, French, Canadian, Galician, Georgian, German, German, Swiss, Greek, Gujarati, Hausa, Hebrew, Hindi, Indian, Hungarian, Icelandic, Indonesian, Italian, Japanese, Kabyle, Kannada, Kazakh, Kinyarwanda, Korean, Kyrgyz, Latvian, Lithuanian, Luganda, Macedonian, Malay, Malayalam, Maltese, Marathi, Meadow Mari, Mongolian, Norwegian Bokmål, Odia/Oriya, Pashto, Polish, Portuguese, Portuguese, Brazilian, Punjabi, Romanian, Russian, Serbian, Sinhala, Slovak, Slovenian, Somali, Spanish, Spanish, US, Sundanese, Swahili, Kenya, Swahili, Burundi, Swahili, Rwanda, Swahili, Tanzania, Swahili, Uganda, Swedish, Tagalog/Filipino, Tamil, Tatar, Telugu, Thai, Turkish, Ukrainian, Uyghur, Uzbek, Vietnamese, Welsh, Wolof, and Zulu.",
     },
@@ -23,8 +23,13 @@ const FAQS = [
         desc: "Meta Llama 3 70B Instruct"
     },
     {
+        title:
+            "Supported media files format for transcription?",
+        desc: "AMR, FLAC, M4A, MP3, MP4, Ogg, WebM, WAV and more"
+    },
+    {
         title: "Is this service free?",
-        desc: "Yes, its completely free."
+        desc: "Yes, it is completely free."
     }
 ];
 
