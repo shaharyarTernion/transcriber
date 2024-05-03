@@ -17,7 +17,7 @@ export default function Campaign() {
           Privacy Policy and Terms of Service
         </Typography>
       </section>
-      <section className="py-24 px-4">
+      <section className="py-6 px-4">
         <div className="container mx-auto mb-10 text-left">
           <Typography onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
             placeholder={""}

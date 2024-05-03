@@ -1,7 +1,3 @@
-export const metadata = {
-    title: "Transcipt Video",
-    description: "Effortless Transcription, Intelligent Insights, Elevate Your Content",
-};
 export * from "./hero";
 export * from "./layout";
 export * from "./page";
