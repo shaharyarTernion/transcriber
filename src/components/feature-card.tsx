@@ -79,6 +79,8 @@ export function FeatureCard({ icon: Icon, title, children, color = "info" }: Fea
         <Typography
           onPointerEnterCapture={undefined}
           onPointerLeaveCapture={undefined}
+          onResize={undefined}
+          onResizeCapture={undefined}
           placeholder={""}
           variant="h5"
           className="mb-4 font-bold text-dark-500 group-hover:text-primary-600 transition-colors duration-300"
@@ -89,6 +91,8 @@ export function FeatureCard({ icon: Icon, title, children, color = "info" }: Fea
         <Typography
           onPointerEnterCapture={undefined}
           onPointerLeaveCapture={undefined}
+          onResize={undefined}
+          onResizeCapture={undefined}
           placeholder={""}
           className="text-gray-600 leading-relaxed group-hover:text-gray-700 transition-colors duration-300"
         >

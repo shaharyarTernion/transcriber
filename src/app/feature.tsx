@@ -17,28 +17,28 @@ const FEATURES = [
     title: "Accurate Transcription",
     children:
       "Lightning-fast and precise transcription of audio and video files. Multiple file format support, including MP3, WAV, MP4, and more.",
-    color: "info",
+    color: "info" as const,
   },
   {
     icon: HeartIcon,
     title: "Intelligent Analysis",
     children:
       "Language detection identifies text language for accurate processing. Sentiment analysis measures emotional tone, providing insights into positive, negative, or neutral sentiments. Summarization analysis yield you needed summary of your content.",
-    color: "primary",
+    color: "primary" as const,
   },
   {
     icon: LockClosedIcon,
     title: "Export Transcript",
     children:
       "Enables users to seamlessly convert audio or text transcripts into PDF format, offering a convenient and shareable document for offline reference or distribution.",
-    color: "success",
+    color: "success" as const,
   },
   {
     icon: LightBulbIcon,
     title: "Content Translation",
     children:
       "Empower your content with global reach by leveraging the translation feature, allowing users to seamlessly translate transcripts or text into up to 75 languages. Enhance communication and accessibility on a global scale, breaking language barriers and ensuring that your content resonates with a diverse audience worldwide.",
-    color: "warning",
+    color: "warning" as const,
   },
 ];
 
@@ -55,7 +55,10 @@ export function Features() {
           </div>
 
           <Typography
-            onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
+            onResize={undefined}
+            onResizeCapture={undefined}
             placeholder={""}
             variant="h1"
             className="mb-6 text-4xl lg:text-5xl font-bold text-dark-500 leading-tight">
@@ -63,7 +66,10 @@ export function Features() {
           </Typography>
 
           <Typography
-            onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
+            onResize={undefined}
+            onResizeCapture={undefined}
             variant="lead"
             placeholder={""}
             className="mx-auto max-w-3xl text-xl text-gray-600 leading-relaxed"

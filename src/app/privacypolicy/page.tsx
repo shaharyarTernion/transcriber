@@ -75,7 +75,10 @@ export default function PrivacyPolicy() {
         <div className="relative flex items-center justify-center min-h-[40vh] px-4 lg:px-8">
           <div className="text-center animate-fade-in">
             <Typography
-              onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
+              onPointerEnterCapture={undefined}
+              onPointerLeaveCapture={undefined}
+              onResize={undefined}
+              onResizeCapture={undefined}
               placeholder={""}
               variant="h1"
               className="mb-4 text-4xl lg:text-6xl font-bold text-white leading-tight"
@@ -87,7 +90,10 @@ export default function PrivacyPolicy() {
             </Typography>
 
             <Typography
-              onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
+              onPointerEnterCapture={undefined}
+              onPointerLeaveCapture={undefined}
+              onResize={undefined}
+              onResizeCapture={undefined}
               placeholder={""}
               variant="lead"
               className="text-xl text-gray-200 max-w-2xl mx-auto"
@@ -105,7 +111,10 @@ export default function PrivacyPolicy() {
           <div className="mb-16 animate-slide-up">
             <div className="card-material max-w-4xl mx-auto">
               <Typography
-                onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+                onResize={undefined}
+                onResizeCapture={undefined}
                 placeholder={""}
                 variant="h4"
                 className="mb-6 text-2xl font-bold text-dark-500"
@@ -113,7 +122,10 @@ export default function PrivacyPolicy() {
                 Our Commitment to Your Privacy
               </Typography>
               <Typography
-                onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+                onResize={undefined}
+                onResizeCapture={undefined}
                 placeholder={""}
                 className="text-lg text-gray-600 leading-relaxed"
               >
@@ -135,7 +147,10 @@ export default function PrivacyPolicy() {
                     <span className="text-white font-bold text-lg">{index + 1}</span>
                   </div>
                   <Typography
-                    onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
+                    onPointerEnterCapture={undefined}
+                    onPointerLeaveCapture={undefined}
+                    onResize={undefined}
+                    onResizeCapture={undefined}
                     placeholder={""}
                     variant="h5"
                     className="text-xl font-bold text-dark-500 flex-1"
@@ -148,7 +163,10 @@ export default function PrivacyPolicy() {
                   {section.content.map((item, itemIndex) => (
                     <Typography
                       key={itemIndex}
-                      onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
+                      onPointerEnterCapture={undefined}
+                      onPointerLeaveCapture={undefined}
+                      onResize={undefined}
+                      onResizeCapture={undefined}
                       placeholder={""}
                       className="text-gray-600 leading-relaxed"
                     >
@@ -186,7 +204,10 @@ export default function PrivacyPolicy() {
                 </div>
                 <div className="flex-1">
                   <Typography
-                    onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
+                    onPointerEnterCapture={undefined}
+                    onPointerLeaveCapture={undefined}
+                    onResize={undefined}
+                    onResizeCapture={undefined}
                     placeholder={""}
                     variant="h5"
                     className="text-xl font-bold text-dark-500 mb-4"
@@ -194,7 +215,10 @@ export default function PrivacyPolicy() {
                     Contact Us
                   </Typography>
                   <Typography
-                    onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
+                    onPointerEnterCapture={undefined}
+                    onPointerLeaveCapture={undefined}
+                    onResize={undefined}
+                    onResizeCapture={undefined}
                     placeholder={""}
                     className="text-gray-600 leading-relaxed mb-4"
                   >
@@ -220,7 +244,10 @@ export default function PrivacyPolicy() {
             <div className="card-material">
               <div className="text-center mb-8">
                 <Typography
-                  onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
+                  onPointerEnterCapture={undefined}
+                  onPointerLeaveCapture={undefined}
+                  onResize={undefined}
+                  onResizeCapture={undefined}
                   placeholder={""}
                   variant="h4"
                   className="text-2xl font-bold text-dark-500 mb-4"
@@ -228,7 +255,10 @@ export default function PrivacyPolicy() {
                   Security & Trust
                 </Typography>
                 <Typography
-                  onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
+                  onPointerEnterCapture={undefined}
+                  onPointerLeaveCapture={undefined}
+                  onResize={undefined}
+                  onResizeCapture={undefined}
                   placeholder={""}
                   className="text-gray-600"
                 >

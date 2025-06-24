@@ -21,7 +21,11 @@ export function Footer() {
             {/* Company Info - Takes up 2 columns on large screens */}
             <div className="lg:col-span-2 space-y-8">
               <div>
-                <Typography onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
+                <Typography
+                  onPointerEnterCapture={undefined}
+                  onPointerLeaveCapture={undefined}
+                  onResize={undefined}
+                  onResizeCapture={undefined}
                   as="a"
                   href="/"
                   placeholder={""}
@@ -34,7 +38,11 @@ export function Footer() {
                   Transcription
                 </Typography>
 
-                <Typography onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
+                <Typography
+                  onPointerEnterCapture={undefined}
+                  onPointerLeaveCapture={undefined}
+                  onResize={undefined}
+                  onResizeCapture={undefined}
                   placeholder={""}
                   className="text-gray-300 leading-relaxed text-lg max-w-2xl"
                 >
@@ -45,7 +53,11 @@ export function Footer() {
               {/* Privacy Policy Link */}
               <div className="flex items-center">
                 <div className="w-1 h-6 bg-gradient-primary rounded-full mr-4"></div>
-                <Typography onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
+                <Typography
+                  onPointerEnterCapture={undefined}
+                  onPointerLeaveCapture={undefined}
+                  onResize={undefined}
+                  onResizeCapture={undefined}
                   as="a"
                   placeholder={""}
                   href="/privacypolicy"
@@ -98,7 +110,11 @@ export function Footer() {
             {/* Get Started Section */}
             <div className="lg:col-span-1">
               <div className="card-material bg-white/5 backdrop-blur-sm border border-white/10 h-full flex flex-col justify-center">
-                <Typography onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
+                <Typography
+                  onPointerEnterCapture={undefined}
+                  onPointerLeaveCapture={undefined}
+                  onResize={undefined}
+                  onResizeCapture={undefined}
                   placeholder={""}
                   variant="h5"
                   className="mb-6 font-bold text-white text-center"
@@ -107,20 +123,30 @@ export function Footer() {
                 </Typography>
 
                 <div className="space-y-6 text-center">
-                  <Typography onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
+                  <Typography
+                    onPointerEnterCapture={undefined}
+                    onPointerLeaveCapture={undefined}
+                    onResize={undefined}
+                    onResizeCapture={undefined}
                     placeholder={""}
                     className="text-gray-300 text-sm"
                   >
                     Transform your content with AI-powered transcription and analysis
                   </Typography>
 
-                  <Typography onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
+                  <Typography
+                    onPointerEnterCapture={undefined}
+                    onPointerLeaveCapture={undefined}
+                    onResize={undefined}
+                    onResizeCapture={undefined}
                     href="https://app.videostranscription.com"
-                    placeholder={null}
+                    placeholder={""}
                     as="a"
                     className="inline-block w-full"
                   >
-                    <Button onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
+                    <Button
+                      onPointerEnterCapture={undefined}
+                      onPointerLeaveCapture={undefined}
                       placeholder={""}
                       className="btn-gradient-primary w-full font-semibold py-4 text-lg hover:scale-105 transition-all duration-300"
                     >
@@ -154,7 +180,11 @@ export function Footer() {
           {/* Bottom Footer - Simplified */}
           <div className="border-t border-gray-700/30 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-              <Typography onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
+              <Typography
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+                onResize={undefined}
+                onResizeCapture={undefined}
                 placeholder={""}
                 className="text-gray-400 text-sm text-center md:text-left"
               >

@@ -9,7 +9,7 @@ const roboto = Roboto({
   display: "swap",
 });
 
-export const metadata: Metadata = {
+const metadata: Metadata = {
   title: "Videos Transcription",
   description:
     "We offer free video and audio transcribe service, a beautifully designed and user-friendly app for you.",

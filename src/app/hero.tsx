@@ -21,7 +21,10 @@ function Hero() {
         <div className="container-custom grid h-full w-full grid-cols-1 place-items-center lg:grid-cols-2 gap-12">
           <div className="col-span-1 text-center lg:text-left animate-fade-in">
             <Typography
-              onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
+              onPointerEnterCapture={undefined}
+              onPointerLeaveCapture={undefined}
+              onResize={undefined}
+              onResizeCapture={undefined}
               placeholder={""}
               variant="h1"
               className="mb-6 text-4xl lg:text-6xl font-bold text-white leading-tight">
@@ -33,7 +36,11 @@ function Hero() {
             </Typography>
 
             <Typography
-              placeholder={""} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
+              placeholder={""}
+              onPointerEnterCapture={undefined}
+              onPointerLeaveCapture={undefined}
+              onResize={undefined}
+              onResizeCapture={undefined}
               variant="lead"
               className="mb-8 text-xl text-gray-200 max-w-2xl mx-auto lg:mx-0"
             >
@@ -41,19 +48,31 @@ function Hero() {
             </Typography>
 
             <Typography
-              placeholder={""} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
+              placeholder={""}
+              onPointerEnterCapture={undefined}
+              onPointerLeaveCapture={undefined}
+              onResize={undefined}
+              onResizeCapture={undefined}
               className="mb-8 text-lg text-gray-300 max-w-2xl mx-auto lg:mx-0">
               Effortless Transcription, Translation, Summarization and Intelligent Insights. Elevate Your Content with cutting-edge AI technology.
             </Typography>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start animate-slide-up">
               <Typography
-                as="a" onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
+                as="a"
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+                onResize={undefined}
+                onResizeCapture={undefined}
                 href="https://app.videostranscription.com"
                 placeholder={""}
                 className="inline-block"
               >
-                <Button onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
+                <Button
+                  onPointerEnterCapture={undefined}
+                  onPointerLeaveCapture={undefined}
+                  onResize={undefined}
+                  onResizeCapture={undefined}
                   size="lg"
                   placeholder={""}
                   className="btn-gradient-primary text-lg px-8 py-4 font-semibold transform transition-all duration-300 hover:scale-105 hover:shadow-2xl"
@@ -175,12 +194,20 @@ function Hero() {
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
               <Typography
-                placeholder={""} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
+                placeholder={""}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+                onResize={undefined}
+                onResizeCapture={undefined}
                 variant="h3"
                 className="mb-4 text-dark-500 font-bold">
                 Welcome to <span className="text-gradient-primary">VsT</span>, where your words come to life!
               </Typography>
-              <Typography onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
+              <Typography
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+                onResize={undefined}
+                onResizeCapture={undefined}
                 placeholder={""}
                 variant="paragraph"
                 className="text-gray-600 leading-relaxed"

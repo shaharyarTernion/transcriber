@@ -20,12 +20,16 @@ export function TestimonialCard({
     <Card
       onPointerEnterCapture={undefined}
       onPointerLeaveCapture={undefined}
+      onResize={undefined}
+      onResizeCapture={undefined}
       placeholder={""}
       className="card-material group hover:scale-105 transition-all duration-500 border-0 overflow-hidden h-full"
     >
       <CardBody
         onPointerEnterCapture={undefined}
         onPointerLeaveCapture={undefined}
+        onResize={undefined}
+        onResizeCapture={undefined}
         placeholder={""}
         className="p-2 flex flex-col h-full"
       >
@@ -46,6 +50,8 @@ export function TestimonialCard({
         <Typography
           onPointerEnterCapture={undefined}
           onPointerLeaveCapture={undefined}
+          onResize={undefined}
+          onResizeCapture={undefined}
           variant="paragraph"
           placeholder={""}
           className="mb-6 font-normal text-gray-600 leading-relaxed flex-grow italic group-hover:text-gray-700 transition-colors duration-300"
@@ -74,6 +80,8 @@ export function TestimonialCard({
               <Avatar
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
+                onResize={undefined}
+                onResizeCapture={undefined}
                 placeholder={""}
                 src={img}
                 alt={client}
@@ -91,6 +99,8 @@ export function TestimonialCard({
             placeholder={""}
             onPointerEnterCapture={undefined}
             onPointerLeaveCapture={undefined}
+            onResize={undefined}
+            onResizeCapture={undefined}
             variant="h6"
             className="font-bold text-dark-500 group-hover:text-primary-600 transition-colors duration-300"
           >
@@ -102,6 +112,8 @@ export function TestimonialCard({
               placeholder={""}
               onPointerEnterCapture={undefined}
               onPointerLeaveCapture={undefined}
+              onResize={undefined}
+              onResizeCapture={undefined}
               variant="small"
               className="font-medium text-gray-500 group-hover:text-gray-600 transition-colors duration-300"
             >

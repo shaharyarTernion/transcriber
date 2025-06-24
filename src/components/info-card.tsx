@@ -1,5 +1,5 @@
+import { Card, CardBody, Typography } from "@material-tailwind/react";
 import React from "react";
-import { Typography, Card, CardBody } from "@material-tailwind/react";
 
 interface InfoCardProps {
   title: string;
@@ -56,12 +56,16 @@ export function InfoCard({
     <Card
       onPointerEnterCapture={undefined}
       onPointerLeaveCapture={undefined}
+      onResize={undefined}
+      onResizeCapture={undefined}
       placeholder={""}
       className="card-material group hover:scale-105 transition-all duration-500 border-0 h-full"
     >
       <CardBody
         onPointerEnterCapture={undefined}
         onPointerLeaveCapture={undefined}
+        onResize={undefined}
+        onResizeCapture={undefined}
         placeholder={""}
         className="p-6 text-center h-full flex flex-col justify-center"
       >
@@ -81,6 +85,8 @@ export function InfoCard({
         <Typography
           onPointerEnterCapture={undefined}
           onPointerLeaveCapture={undefined}
+          onResize={undefined}
+          onResizeCapture={undefined}
           placeholder={""}
           variant="h3"
           className="mb-2 font-bold text-dark-500 group-hover:text-primary-600 transition-colors duration-300"
@@ -92,6 +98,8 @@ export function InfoCard({
         <Typography
           onPointerEnterCapture={undefined}
           onPointerLeaveCapture={undefined}
+          onResize={undefined}
+          onResizeCapture={undefined}
           placeholder={""}
           variant="small"
           className="text-gray-600 leading-relaxed group-hover:text-gray-700 transition-colors duration-300 font-medium"
