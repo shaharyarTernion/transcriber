@@ -222,7 +222,7 @@ export default function PrivacyPolicy() {
                     placeholder={""}
                     className="text-gray-600 leading-relaxed mb-4"
                   >
-                    If you have any questions about this Privacy Policy, please don't hesitate to contact us. We're here to help and ensure your privacy concerns are addressed.
+                    If you have any questions about this Privacy Policy, please don&apos;t hesitate to contact us. We&apos;re here to help and ensure your privacy concerns are addressed.
                   </Typography>
                   <a
                     href="mailto:shaharyar.malik2000@gmail.com"

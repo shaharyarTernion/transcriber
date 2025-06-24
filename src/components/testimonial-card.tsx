@@ -56,7 +56,7 @@ export function TestimonialCard({
           placeholder={""}
           className="mb-6 font-normal text-gray-600 leading-relaxed flex-grow italic group-hover:text-gray-700 transition-colors duration-300"
         >
-          "{feedback}"
+          &quot;{feedback}&quot;
         </Typography>
 
         {/* Rating */}

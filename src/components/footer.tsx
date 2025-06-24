@@ -148,8 +148,7 @@ export function Footer() {
                       onPointerEnterCapture={undefined}
                       onPointerLeaveCapture={undefined}
                       placeholder={""}
-                      className="btn-gradient-primary w-full font-semibold py-4 text-lg hover:scale-105 transition-all duration-300"
-                    >
+                      className="btn-gradient-primary w-full font-semibold py-4 text-lg hover:scale-105 transition-all duration-300" onResize={undefined} onResizeCapture={undefined}                    >
                       Launch App
                       <svg className="w-5 h-5 ml-2 inline" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />

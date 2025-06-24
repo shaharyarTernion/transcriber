@@ -52,14 +52,12 @@ export function FeatureCard({ icon: Icon, title, children, color = "info" }: Fea
       onPointerEnterCapture={undefined}
       onPointerLeaveCapture={undefined}
       placeholder={""}
-      className="card-material group hover:scale-105 transition-all duration-500 border-0 overflow-hidden"
-    >
+      className="card-material group hover:scale-105 transition-all duration-500 border-0 overflow-hidden"  onResize={undefined} onResizeCapture={undefined}    >
       <CardBody
         onPointerEnterCapture={undefined}
         onPointerLeaveCapture={undefined}
         placeholder={""}
-        className="p-8"
-      >
+        className="p-8" onResize={undefined} onResizeCapture={undefined}      >
         {/* Icon Container */}
         <div className="relative mb-6">
           {/* Background decoration */}

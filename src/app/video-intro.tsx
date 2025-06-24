@@ -20,8 +20,8 @@ export function VideoIntro() {
         />
         <div className="absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4 z-10">
           <IconButton onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
-            placeholder={""}
-            color="white" className="rounded-full" size="lg">
+          placeholder={""}
+          color="white" className="rounded-full" size="lg"  onResize={undefined} onResizeCapture={undefined}>
             <PlayIcon className="h-6 w-6" />
           </IconButton>
         </div>
