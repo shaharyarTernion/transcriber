@@ -1,48 +1,35 @@
 import React from "react";
 import {
   Navbar as MTNavbar,
-  // Collapse,
-  // IconButton,
   Typography,
-  // Button,
+  Button,
+  IconButton,
 } from "@material-tailwind/react";
-// import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 interface NavItemProps {
   children: React.ReactNode;
   href?: string;
 }
-// function NavItem({ children, href }: NavItemProps) {
-//   return (
-//     <li>
-//       <Typography
-//         placeholder={""}
-//         as="a"
-//         href={href || "#"}
-//         target={href ? "_blank" : "_self"}
-//         variant="small"
-//         className="font-medium"
-//       >
-//         {children}
-//       </Typography>
-//     </li>
-//   );
-// }
+
+function NavItem({ children, href }: NavItemProps) {
+  return (
+    <li>
+      <Typography
+        placeholder={""}
+        as="a"
+        href={href || "#"}
+        target={href ? "_blank" : "_self"}
+        variant="small"
+        className="font-medium text-gray-700 hover:text-primary-500 transition-colors duration-300 cursor-pointer"
+      >
+        {children}
+      </Typography>
+    </li>
+  );
+}
 
 export function Navbar() {
-  const [open, setOpen] = React.useState(false);
   const [isScrolling, setIsScrolling] = React.useState(false);
-
-  // function handleOpen() {
-  //   setOpen((cur) => !cur);
-  // }
-
-  React.useEffect(() => {
-    window.addEventListener(
-      "resize",
-      () => window.innerWidth >= 960 && setOpen(false)
-    );
-  }, []);
 
   React.useEffect(() => {
     function handleScroll() {
@@ -62,105 +49,59 @@ export function Navbar() {
     <MTNavbar onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
       placeholder={""}
       fullWidth
-      shadow={false}
-      blurred={false}
+      shadow={isScrolling}
+      blurred={isScrolling}
       color={isScrolling ? "white" : "transparent"}
-      className="fixed top-0 z-50 border-0"
+      className={`fixed top-0 z-50 border-0 transition-all duration-500 ${
+        isScrolling
+          ? "bg-white/95 backdrop-blur-md shadow-material border-b border-gray-200/20"
+          : "bg-transparent"
+      }`}
     >
-      <div className="container mx-auto flex items-center justify-between">
+      <div className="container-custom flex items-center justify-between py-2">
+        {/* Logo */}
         <Typography onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
-          className=""
           placeholder={""}
           as="a"
           href="/"
-          // target="_blank"
           variant="h6"
-          color={isScrolling ? "current" : "white"}
-        >
-          Videos Transcription
-        </Typography>
-        {/* <ul
-          className={`ml-10 hidden items-center gap-6 lg:flex ${
-            isScrolling ? "text-gray-900" : "text-white"
+          className={`font-bold text-xl transition-colors duration-300 ${
+            isScrolling
+              ? "text-dark-500 hover:text-primary-500"
+              : "text-white hover:text-primary-200"
           }`}
         >
-          <NavItem>Home</NavItem>
-          <NavItem>About Us</NavItem>
-          <NavItem>Contact Us</NavItem>
-          <NavItem href="https://www.material-tailwind.com/docs/react/installation">
-            Docs
-          </NavItem>
-        </ul> */}
-        {/* <div className="hidden gap-2 lg:flex lg:items-center">
-          <IconButton
-            variant="text"
-            color={isScrolling ? "gray" : "white"}
-            size="sm"
+          <span className={isScrolling ? "text-gradient-primary" : "text-white"}>
+            Videos
+          </span>{" "}
+          Transcription
+        </Typography>
+
+        {/* Desktop Actions */}
+        <div className="hidden gap-4 lg:flex lg:items-center">
+          <Typography
+            as="a" onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
+            href="https://app.videostranscription.com"
+            placeholder={""}
+            className="inline-block"
           >
-            <i className="fa-brands fa-twitter text-base" />
-          </IconButton>
-          <IconButton
-            variant="text"
-            color={isScrolling ? "gray" : "white"}
-            size="sm"
-          >
-            <i className="fa-brands fa-facebook text-base" />
-          </IconButton>
-          <IconButton
-            variant="text"
-            color={isScrolling ? "gray" : "white"}
-            size="sm"
-          >
-            <i className="fa-brands fa-instagram text-base" />
-          </IconButton>
-          <a href="https://www.material-tailwind.com/blocks" target="_blank">
-            <Button color={isScrolling ? "gray" : "white"} size="sm">
-              Blocks
+            <Button
+              onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
+              placeholder={""}
+              size="sm"
+              className={`font-semibold transition-all duration-300 ${
+                isScrolling
+                  ? "btn-gradient-primary"
+                  : "bg-white text-dark-500 hover:bg-gray-100 shadow-lg hover:shadow-xl"
+              }`}
+            >
+              Get Started
             </Button>
-          </a>
-        </div> */}
-        {/* <IconButton
-          placeholder={""}
-          variant="text"
-          color={isScrolling ? "gray" : "white"}
-          onClick={handleOpen}
-          className="ml-auto inline-block lg:hidden"
-        >
-          {open ? (
-            <XMarkIcon strokeWidth={2} className="h-6 w-6" />
-          ) : (
-            <Bars3Icon strokeWidth={2} className="h-6 w-6" />
-          )}
-        </IconButton> */}
-      </div>
-      {/* <Collapse open={open}>
-        <div className="container mx-auto mt-4 rounded-lg border-t border-blue-gray-50 bg-white px-6 py-5">
-          <ul className="flex flex-col gap-4 text-blue-gray-900">
-            <NavItem>Home</NavItem>
-            <NavItem>About Us</NavItem>
-            <NavItem>Contact Us</NavItem>
-            <NavItem href="https://www.material-tailwind.com/docs/react/installation">
-              Docs
-            </NavItem>
-          </ul>
-          <div className="mt-4 flex items-center gap-2">
-            <IconButton variant="text" color="gray" size="sm">
-              <i className="fa-brands fa-twitter text-base" />
-            </IconButton>
-            <IconButton variant="text" color="gray" size="sm">
-              <i className="fa-brands fa-facebook text-base" />
-            </IconButton>
-            <IconButton variant="text" color="gray" size="sm">
-              <i className="fa-brands fa-instagram text-base" />
-            </IconButton>
-            <a href="https://www.material-tailwind.com/blocks" target="_blank">
-              <Button color="gray" size="sm" className="ml-auto">
-                Blocks
-              </Button>
-            </a>
-          </div>
+          </Typography>
         </div>
-      </Collapse> */}
+
+      </div>
+
     </MTNavbar>
   );
 }
