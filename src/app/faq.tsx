@@ -714,7 +714,10 @@ export function Faq() {
                             </Typography>
 
                             <div className="flex justify-center">
-                                <button className="btn-gradient-primary flex items-center gap-2 text-sm sm:text-base px-4 sm:px-6 py-2.5 sm:py-3">
+                                <button
+                                    onClick={() => window.open('mailto:shaharyar.malik2000@gmail.com?subject=Support Request - AI Transcription Service', '_blank')}
+                                    className="btn-gradient-primary flex items-center gap-2 text-sm sm:text-base px-4 sm:px-6 py-2.5 sm:py-3"
+                                >
                                     <UserGroupIcon className="h-4 w-4 sm:h-5 sm:w-5" />
                                     <span className="hidden sm:inline">Contact Support Team</span>
                                     <span className="sm:hidden">Contact Support</span>
